@@ -19,6 +19,7 @@ This deployment was created using the Amazon Web Services platform and can be si
 - Implement Central Moment Discrepancy (CMD) loss and compare results to Deep CORAL, CMD paper - https://arxiv.org/abs/1702.08811, CMD implementation - https://github.com/wzell/cmd
 - Enable the user to select the model layer from which they would like Deep CORAL to run on the activations, as done in this implementation - https://github.com/jindongwang/transferlearning/tree/master/code/deep/DDC_DeepCoral
 - Amend the serve script and endpoint creation to allow for the user to submit a jpeg file directly rather than only accepting an image url how-to here: https://github.com/shashankhalo7/Helpful-Scripts/blob/master/Sagemaker/Deploy.ipynb and https://github.com/shashankhalo7/Helpful-Scripts/blob/master/Sagemaker/serve.py
+- Change Auto-scaling cluster in ECS from managed EC2 type to Fargate once Fargate supports GPU instances
 - Switch from PyTorch implementation to Fastai
  
 
